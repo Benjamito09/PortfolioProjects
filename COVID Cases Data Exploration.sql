@@ -1,4 +1,3 @@
-
 -- Exploring the data of the COVID-19 Pandemic during its peak, between 01/01/2020 and 04/30/2021
 
 
