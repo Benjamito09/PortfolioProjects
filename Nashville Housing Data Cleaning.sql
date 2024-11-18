@@ -1,3 +1,5 @@
+-- Basic cleaning of housing data in the Nashville, TN area
+
 SELECT *
 FROM PortfolioProject.dbo.NashvilleHousing;
 
