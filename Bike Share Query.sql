@@ -8,7 +8,7 @@ FROM bike_share_yr_1
 
 SELECT dteday, season, a.yr, weekday, hr, rider_type, riders, price, COGS, 
 riders*price as revenue, 
-riders*price-COGS as proft
+riders*price-COGS*riders as proft
 FROM cte a
 LEFT JOIN cost_table b
 ON a.yr = b.yr
